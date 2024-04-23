@@ -10,7 +10,8 @@
     "astro": "astro",
     "lint": "eslint 'src/**/*.{js,astro}'",
     "lint:fix": "eslint 'src/**/*.{js,astro}' --fix",
-    "format": "prettier --write 'src/**/*.{js,astro}'"
+    "format": "prettier --check 'src/**/*.{js,astro}'",
+    "format:fix": "prettier --write 'src/**/*.{js,astro}'"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.10",
